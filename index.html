@@ -10,18 +10,21 @@
 <body>
     <div class="main">
         <h1>Lyrica</h1>
-        <form>
-            <input type="text" value="Search any song" class="song-name-field">
-            <input type="submit" value="Search" class="song-submit-btn">
-        </form>
+
+        <div class="input-group">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
     </div>
     
     <div class="card mx-auto p-2" style="width: 18rem;">
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
-          <h5 class="card-title">Song name</h5>
-          <p class="card-text">Lyrics here</p>
-          <a href="#" class="btn btn-primary">Spotify link maybe</a>
+          <h5 class="song-name">Song name</h5>
+          <p class="lyrics">Lyrics here</p>
+          <a href="#" class="btn btn-primary spotify-link">Spotify link maybe</a>
         </div>
       </div>
 </body>

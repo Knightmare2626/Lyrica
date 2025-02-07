@@ -16,19 +16,26 @@ body {
   margin: 10% 50px 20px;
 }
 
-.song-submit-btn {
-    border-radius: 10px;
-}
-
 h1 {
-    font-weight: bolder;
-    font-size: 4rem;
+  font-weight: bolder;
+  font-size: 4rem;
 }
 
 .btn {
   background-color: #493D9E;
+  color: white;
   border-left-width: 0px;
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-outline-success {
+  background-color: #3c856c;
+  color: rgb(255, 255, 255);
 }
