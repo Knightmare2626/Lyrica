@@ -11,14 +11,13 @@ body {
 
 .main {
   color: white;
-  margin-top: 10%;
   text-align: center;
-  margin: 10% 50px 20px;
+  margin: 10px 50px 20px;
 }
 
 h1 {
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .btn {
@@ -38,4 +37,19 @@ h1 {
 .btn-outline-success {
   background-color: #3c856c;
   color: rgb(255, 255, 255);
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+.form-control {
+  margin: 10px;
+  width: 90%;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  color: white;
 }

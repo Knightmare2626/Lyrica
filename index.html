@@ -9,23 +9,21 @@
 </head>
 <body>
     <div class="main">
-        <h1>Lyrica</h1>
+        <h1>Covera</h1>
 
         <div class="input-group">
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <form class="form-inline my-2 my-lg-0" id="searchForm">
+                <input class="form-control mr-sm-2 artist-name" type="search" placeholder="Enter artist name" aria-label="Search">
+                <input class="form-control mr-sm-2 album-name" type="search" placeholder="Enter album name" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 btn-submit" type="submit" onsubmit="fetchAlbumCover(event)">Search</button>
             </form>
         </div>
     </div>
     
-    <div class="card mx-auto p-2" style="width: 18rem;">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="song-name">Song name</h5>
-          <p class="lyrics">Lyrics here</p>
-          <a href="#" class="btn btn-primary spotify-link">Spotify link maybe</a>
-        </div>
-      </div>
+    <div class="card mx-auto p-2" style="width: 16.8rem;">
+        <img src="\public\images\placeholder.jpg" class="card-img-top album-art" alt="Album Cover goes here">
+        <h4 class="album-title">Album Name</h2>
+    </div>
+    <script defer src="/index.js"></script>
 </body>
 </html>
